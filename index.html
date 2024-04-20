@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>CALCULATE,ME</h1>
@@ -11,33 +12,38 @@
         <div class="output-box">
             <input type="text" name="output" id="">
         </div>
-        <div class="rows">
-            <button class="btn">AC </button>
-            <button class="btn">&#8592;</button>
-            <button class="btn">%</button>
-            <button class="btn">&#247;</button>
+        <div class="rows" id="row1">
+            <button class="btn clear">AC </button>
+            <button class="btn ">&#8592;</button>
+            <button class="btn special">%</button>
+            <button class="btn special">&#247;</button>
         </div>
-        <div class="rows">
+        <div class="rows" id="row2">
+            
             <button class="btn">7</button>
             <button class="btn">8</button>
             <button class="btn">9</button>
-            <button class="btn">*</button>
+            <button class="btn special" >*</button>
         </div>
-        <div class="rows">
+        <div class="rows" id="row3">
             <button class="btn">4</button>
             <button class="btn">5</button>
             <button class="btn">6</button>
-            <button class="btn">-</button>
+            <button class="btn special">-</button>
         </div>
-        <div class="rows">
+        <div class="rows" id="row4">
             <button class="btn">1</button>
             <button class="btn">2</button>
             <button class="btn">3</button>
-            <button class="btn">+</button>
+            <button class="btn special" >+</button>
         </div>
-        <div class="rows">
-            <button class="btn">0</button><button class="btn">.  </button><button class="btn">=</button>
+        <div class="rows" id="last-row" >
+            <button class="btn" id="zero">0</button>
+            <button class="btn">.  </button>
+            <button class="btn symbols">=</button>
         </div>
     </div>
 </body>
+
+
 </html>
