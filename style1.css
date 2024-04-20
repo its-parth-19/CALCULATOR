@@ -13,12 +13,10 @@ h1
     text-align: center;
     
     
-    /* text-decoration: dashed; */
-/* text-decoration: underline; */
+
 text-decoration: underline;
-/* text-decoration: dotted; */
-/* text-decoration: double; */
-text-decoration-line: underline;
+
+
 
 text-decoration-color: yellow;
     
