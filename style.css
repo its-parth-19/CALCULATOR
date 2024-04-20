@@ -21,3 +21,18 @@ text-decoration: underline;
 text-decoration-color: yellow;
     
 }
+.output-box input{
+    width: 328px;
+    position: relative;
+    top: 57px;
+    left: 84px;
+    height: 51px;
+    /* border: 2px solid yellow; */
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    font-size: 30px;
+    text-align: right;
+    text-transform: lowercase;
+}
