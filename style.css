@@ -56,3 +56,16 @@ button{
     
     box-shadow: -2px -3px 5px #ff7373;
 }
+.clear{
+    background-color: red;
+}
+
+
+.rows{
+    
+    width: 330px;
+    position: relative;
+    top: 63px;
+    left: 88px;
+    margin-top: 3px;
+}
