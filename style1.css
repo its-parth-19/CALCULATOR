@@ -26,13 +26,13 @@ text-decoration-color: yellow;
     position: relative;
     top: 57px;
     left: 84px;
-    height: 51px;
+    height: 90px;
     /* border: 2px solid yellow; */
     background-color: black;
     color: white;
     border-radius: 7px;
     outline: none;
-    font-size: 30px;
+    font-size: 40px;
     text-align: right;
     text-transform: lowercase;
 }
@@ -40,10 +40,12 @@ text-decoration-color: yellow;
 .container{
     border: 2px solid red;
     width: 500px;
-    height: 526px;
+    height: 547px;
     margin: auto;
     border-radius: 40px;
-    box-shadow: 4px 17px 48px 67px royalblue;
+    /* box-shadow: 4px 17px 48px 67px royalblue; */
+    box-shadow: -4px 7px 29px 24px #5e5959;
+    margin-top: 54px;
 }
 button{
     height: 71px;
@@ -53,7 +55,7 @@ button{
     border-radius: 50px;
     font-size: 20px;
     /* background-color: #a48966; */
-    box-shadow: 8px 0px 1px #ff7373;
+    box-shadow: -2px -3px 5px #ff7373;
 }
 
 .clear{

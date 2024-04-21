@@ -27,7 +27,7 @@ text-decoration-color: yellow;
     top: 57px;
     left: 84px;
     height: 51px;
-    /* border: 2px solid yellow; */
+    
     background-color: black;
     color: white;
     border-radius: 7px;
@@ -35,4 +35,24 @@ text-decoration-color: yellow;
     font-size: 30px;
     text-align: right;
     text-transform: lowercase;
+}
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 547px;
+    margin: auto;
+    border-radius: 40px;
+    /* box-shadow: 4px 17px 48px 67px royalblue; */
+    box-shadow: -4px 7px 29px 24px #5e5959;
+    margin-top: 54px;
+}
+button{
+    height: 71px;
+    width: 70px;
+    margin-left: 7px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    
+    box-shadow: -2px -3px 5px #ff7373;
 }
