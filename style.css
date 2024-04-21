@@ -69,3 +69,14 @@ button{
     left: 88px;
     margin-top: 3px;
 }
+#zero{
+    width: 151px;
+    border-radius: 23px;
+}
+.special{
+
+    background-color: #ffdc07;
+}
+.symbols{
+    background-color: #a7b1dc;
+}
